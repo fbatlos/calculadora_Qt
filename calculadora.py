@@ -6,7 +6,7 @@ from PyQt6 import uic
 class Calculadora(QMainWindow):
     def __init__(self):
         super(Calculadora, self).__init__()
-        uic.loadUi('C:/Users/pacob/Desktop/calculadora/calculadora.ui', self)
+        uic.loadUi('calculadora.ui', self)
         
         botones = {
             "Bt_0": "0", "Bt_1": "1", "Bt_2": "2", "Bt_3": "3", "Bt_4": "4", 
@@ -44,11 +44,14 @@ class Calculadora(QMainWindow):
         if numero == "**":
             self.expresion += "^"
             self.interno += numero
-            self.TE_resultado.setText(self.expresion)
+        elif numero == "(":
+            self.expresion += numero
+            self.interno += "*"+numero
         else:
             self.expresion += numero
             self.interno += numero
-            self.TE_resultado.setText(self.expresion)
+
+        self.TE_resultado.setText(self.expresion)
 
     def agregar_constante(self, constante):
         showConstant = {
