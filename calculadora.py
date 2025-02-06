@@ -116,10 +116,10 @@ class Calculadora(QMainWindow):
                 self.expresion = str(resultado)
                 self.interno = str(resultado)
 
-        except Exception:
-            print(self.interno)
-
-            self.TE_resultado.setText("Error")
+        except Exception as error:
+            print(type(error))
+            QMessageBox.critical(self,"Error", "Sintaxis incorrecta") 
+            self.TE_resultado.setText("")
             self.expresion = ""
             self.interno = ""
     

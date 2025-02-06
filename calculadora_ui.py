@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'calculadora.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.8.2
+## Created by: Qt User Interface Compiler version 6.8.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -215,6 +215,10 @@ class Ui_MainWindow(object):
         self.TE_resultado = QLineEdit(self.centralwidget)
         self.TE_resultado.setObjectName(u"TE_resultado")
         self.TE_resultado.setGeometry(QRect(62, 50, 291, 61))
+        font1 = QFont()
+        font1.setPointSize(20)
+        self.TE_resultado.setFont(font1)
+        self.TE_resultado.setAlignment(Qt.AlignmentFlag.AlignRight|Qt.AlignmentFlag.AlignTrailing|Qt.AlignmentFlag.AlignVCenter)
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
