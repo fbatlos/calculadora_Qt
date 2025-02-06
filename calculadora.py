@@ -2,6 +2,7 @@ import math
 import sys
 from PyQt6.QtWidgets import *
 from PyQt6 import uic
+from PyQt6.QtCore import Qt
 
 class Calculadora(QMainWindow):
     def __init__(self):
@@ -128,6 +129,7 @@ class Calculadora(QMainWindow):
         self.TW_table.insertRow(row_position)
         self.TW_table.setItem(row_position, 0, QTableWidgetItem(operacion))
         self.TW_table.setItem(row_position, 1, QTableWidgetItem(resultado))
+        
 
 
 

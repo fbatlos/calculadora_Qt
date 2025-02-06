@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(186, 165, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="Bt_factorial">
     <property name="geometry">
@@ -25,8 +28,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -34,6 +39,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>!</string>
@@ -50,8 +58,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -59,6 +69,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>AC</string>
@@ -75,8 +88,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -84,6 +98,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt ;</string>
     </property>
     <property name="text">
      <string>τ</string>
@@ -100,8 +117,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -109,6 +128,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>C</string>
@@ -125,8 +147,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -134,6 +158,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>/</string>
@@ -150,8 +177,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -159,6 +188,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>8</string>
@@ -175,8 +207,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>101</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -184,6 +218,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 101pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>^</string>
@@ -200,8 +237,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -209,6 +248,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>x</string>
@@ -225,8 +267,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -234,6 +278,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>7</string>
@@ -250,8 +297,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -259,6 +308,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>9</string>
@@ -275,8 +327,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -284,6 +338,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>5</string>
@@ -300,8 +357,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -309,6 +368,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>√</string>
@@ -325,8 +387,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -334,6 +398,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>-</string>
@@ -350,8 +417,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -359,6 +428,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>4</string>
@@ -375,8 +447,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -384,6 +458,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>6</string>
@@ -400,8 +477,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -409,6 +488,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>2</string>
@@ -425,8 +507,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -434,6 +517,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt ;</string>
     </property>
     <property name="text">
      <string>π</string>
@@ -450,8 +536,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -459,6 +547,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>+</string>
@@ -475,8 +566,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -484,6 +577,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>1</string>
@@ -500,8 +596,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -509,6 +607,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>3</string>
@@ -525,8 +626,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -534,6 +637,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>0</string>
@@ -550,8 +656,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -559,6 +667,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>(</string>
@@ -575,8 +686,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -584,6 +697,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>=</string>
@@ -600,8 +716,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -609,6 +727,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>)</string>
@@ -625,8 +746,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -634,6 +757,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>,</string>
@@ -650,8 +776,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -659,6 +787,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>sin</string>
@@ -675,8 +806,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -684,6 +817,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>log</string>
@@ -700,8 +836,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -709,6 +847,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>tan</string>
@@ -725,8 +866,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -734,6 +877,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>e</string>
@@ -750,8 +896,10 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
+      <family>System</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="mouseTracking">
@@ -759,6 +907,9 @@
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 11pt &quot;System&quot;;</string>
     </property>
     <property name="text">
      <string>cos</string>
@@ -773,6 +924,15 @@
       <height>521</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 700 9pt &quot;System&quot;;
+
+</string>
+    </property>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
    </widget>
    <widget class="QLineEdit" name="TE_resultado">
     <property name="geometry">
@@ -786,7 +946,12 @@
     <property name="font">
      <font>
       <pointsize>20</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 &quot;System&quot;;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
