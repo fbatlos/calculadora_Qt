@@ -1,5 +1,6 @@
 import math
 import sys
+import os
 from PyQt6.QtWidgets import *
 from PyQt6 import uic
 from PyQt6.QtCore import Qt
@@ -7,9 +8,12 @@ from PyQt6.QtCore import Qt
 class Calculadora(QMainWindow):
     def __init__(self):
         super(Calculadora, self).__init__()
-        uic.loadUi('calculadora.ui', self)
 
-        #Botones de numeros y operadores
+        rutaUi = os.path.join(os.path.dirname(__file__), 'calculadora.ui')
+
+        uic.loadUi(rutaUi, self)
+
+        #Botones de numeros y operadores 
         
         botones = {
             "Bt_0": "0", "Bt_1": "1", "Bt_2": "2", "Bt_3": "3", "Bt_4": "4", 
