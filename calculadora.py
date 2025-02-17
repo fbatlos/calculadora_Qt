@@ -4,14 +4,22 @@ import os
 from PyQt6.QtWidgets import *
 from PyQt6 import uic
 from PyQt6.QtCore import Qt
+from PyQt6.QtGui import QIcon
+import sql
+
+#La calculadora se ha empaquetado usando el comando 'pyinstaller --noconsole calculadora.py', esto hace que no salga la consola por cada ejecución y no es necesario 
+# añadirle el icon pues lo hago mediante codigo. 
 
 class Calculadora(QMainWindow):
     def __init__(self):
         super(Calculadora, self).__init__()
+        #Gracias al os.path.dirname(__file__) podemos obtener la ruta del archivo calculadora.ui, sin importar donde se encuentre el archivo calculadora.py
 
         rutaUi = os.path.join(os.path.dirname(__file__), 'calculadora.ui')
 
         uic.loadUi(rutaUi, self)
+        #Añadimos el icono a la ventana
+        self.setWindowIcon(QIcon(os.path.join(os.path.dirname(__file__),'transparent-calculator.png')))
 
         #Botones de numeros y operadores 
         
@@ -55,7 +63,7 @@ class Calculadora(QMainWindow):
 
     #Funcion encargada de agregar un numero a la expresion, se muestra de forma diferente en el TE_resultado y en la variable interna
     def agregar_numero(self, numero):
-        if self.isFirst and numero.isdigit():
+        if self.isFirst:
             self.expresion = ""
             self.interno = ""
             self.isFirst = False
@@ -81,13 +89,14 @@ class Calculadora(QMainWindow):
             "e": "e",
             "pi": "π",
         }
-
-        if self.interno[len(self.interno)-1].isdigit():
-            self.expresion += f"{showConstant[constante]}"
-            self.interno += f"*math.{constante}"
+        if(len(self.interno)>0):
+            if self.interno[len(self.interno)-1].isdigit():
+                self.expresion += f"{showConstant[constante]}"
+                self.interno += f"*math.{constante}"
         else:
             self.expresion += f"{showConstant[constante]}"
             self.interno += f"math.{constante}"
+            self.isFirst = False
 
         self.TE_resultado.setText(self.expresion)
 
@@ -102,12 +111,14 @@ class Calculadora(QMainWindow):
             "factorial": "!"
         }
 
-        if self.interno[len(self.interno)-1].isdigit():
-            self.expresion += f"{showFunction[funcion]}("
-            self.interno += f"*math.{funcion}("
+        if(len(self.interno)>0):
+            if self.interno[len(self.interno)-1].isdigit():
+                self.expresion += f"{showFunction[funcion]}("
+                self.interno += f"*math.{funcion}("
         else:
             self.expresion += f"{showFunction[funcion]}("
             self.interno += f"math.{funcion}("
+            self.isFirst = False
 
         self.TE_resultado.setText(self.expresion)
 

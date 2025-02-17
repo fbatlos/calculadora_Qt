@@ -280,7 +280,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Calculadora-fbatlos", None))
         self.Bt_factorial.setText(QCoreApplication.translate("MainWindow", u"!", None))
         self.Bt_cleanAll.setText(QCoreApplication.translate("MainWindow", u"AC", None))
         self.Bt_tau.setText(QCoreApplication.translate("MainWindow", u"\u03c4", None))
